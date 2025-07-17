@@ -1,1 +1,2 @@
-# My Project Title
+# Lamprey CRE Mapping using CNNs
+Try using docker

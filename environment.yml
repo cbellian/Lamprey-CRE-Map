@@ -1,0 +1,18 @@
+name: lamprey_cre_map
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - bedtools
+  - meme
+  - pybigwig
+  - snakemake
+  - biopython
+  - pysam

@@ -1,0 +1,12 @@
+{
+  "title": "Lamprey-CRE-Map: Enhancer Mapping Pipeline in Petromyzon marinus",
+  "upload_type": "software",
+  "description": "A computational pipeline to identify, annotate, and compare enhancer elements in Petromyzon marinus using motif analysis, conservation scoring, and epigenomic data.",
+  "creators": [
+    {
+      "name": "Cameron Bellian",
+      "orcid": "0000-0002-0000-0000"
+    }
+  ],
+  "version": "0.1.0"
+}

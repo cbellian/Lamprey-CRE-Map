@@ -1,0 +1,19 @@
+# Makefile for tfap2a enhancer analysis pipeline
+
+all: download_data run_pipeline annotate_enhancers
+
+download_data:
+	@echo "Downloading public ATAC-seq and ChIP-seq data..."
+	bash scripts/download_public_data.sh
+
+run_pipeline:
+	@echo "Running enhancer prediction pipeline..."
+	python3 scripts/find_tfap2a_enhancers.py
+
+annotate_enhancers:
+	@echo "Annotating motifs, co-occurrence, spacing, and conservation..."
+	python3 scripts/annotate_motifs_and_spacing.py
+
+clean:
+	@echo "Cleaning data and result folders..."
+	rm -rf data/* results/*
